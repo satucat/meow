@@ -2,8 +2,21 @@
 <html>
 <head>
   <title>Cannonball</title>
+  <style>
+    body {
+      margin: 0; /* Optional: Removes default space around the page */
+    }
+    img.cat-image {
+      display: block;   /* Prevents potential extra space below the image */
+      max-width: 100%; /* Image scales down to fit container width */
+      height: auto;    /* Maintains the image's aspect ratio */
+      /* Optional: To center the image if it's narrower than the screen */
+      /* margin-left: auto; */
+      /* margin-right: auto; */
+    }
+  </style>
 </head>
 <body>
-  <img src="https://satu.ftp.sh/meow/cat.png" alt="Cannonball Cat">
+  <img src="https://satu.ftp.sh/meow/cat.png" alt="Cannonball Cat" class="cat-image">
 </body>
 </html>
